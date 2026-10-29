@@ -1,0 +1,13 @@
+Continúa desde esta entrega técnica de ChatGPT/Codex para Cognex In-Sight L38 26.2.1.
+
+Lee primero LEEME_PARA_CLAUDE.md y CONTRATO_HMI_OBSERVADO.md; consulta también las instrucciones locales del proyecto que ya tienes. revisa revisar_cajas.py, que es autocontenido y solo analiza PNG/CSV.
+
+Hechos nuevos: código de verificación geométrica probado con sintéticos; demo19x15; control de periodicidad, escala anisótropa, desplazamiento evaluado en centro, consenso RANSAC/Huber, mediana/MAD y bloqueo de propuestas fijas por frame fallido/ausente o deslizamiento20mm. Los resultados y versiones están en resultados_verificados y demo_sintetica.
+
+Pendiente: ejecutar autoprueba en Windows; comparar la definición de negro por borde con corte.py; validar escala/crop/ejes y sincronía; contrastar una pequeña muestra real LOCALMENTE. No compartir imágenes reales. Aplicar cambios al analizador únicamente si son necesarios y registrar por qué.
+
+HMI: el contrato proviene del cliente beta aportado; todavía no hay evidencia aquí del resultado del sondeo3D. beginEdit usa cadena; apply/cancel cuelgan de url; getSamples es compuesto; train es llamada separada. No afirmar que cancel revierte entrenamiento ni que apply guarda el job.
+
+Restricciones: solo emulador sobre copia respaldada; nunca cámaras/PLC; nunca editar jobx externamente; nunca cambiar tamaño/fixture de Edge AI; no aplicar automáticamente propuestas. Z queda NO_IDENTIFICABLE. Giro en fixture no equivale directamente a Rot de Cognex.
+
+Respóndeme por excepción: qué comprobaste, discrepancias, cambios necesarios y siguiente paso concreto. Separa documentación Cognex, evidencia aportada, pruebas sintéticas y supuestos. No rehagas investigación ya documentada salvo una contradicción nueva.

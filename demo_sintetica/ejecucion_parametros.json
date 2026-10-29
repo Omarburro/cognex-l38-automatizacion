@@ -1,0 +1,27 @@
+{
+  "opencv": "4.14.0",
+  "numpy": "2.3.5",
+  "parametros": {
+    "carpeta": "/workspace/demo_cajas",
+    "config": null,
+    "salida": null,
+    "muestras_sincronizadas": true,
+    "muestras_esperadas": 15,
+    "negro": 22,
+    "banda": 0.15,
+    "delta_negro": 15,
+    "max_giro": 5,
+    "giro_revision": 1,
+    "desplazamiento_mm": 2,
+    "fraccion_desplazamiento": 0.1,
+    "residuo_fixture_mm": 2,
+    "separacion_mm": 30,
+    "autoprueba": false,
+    "crear_demo": null,
+    "guia": false
+  },
+  "convencion": "referencia->muestra; u derecha,v abajo,theta horario; Z no identificable",
+  "umbral_estado": "PROPUESTOS_NO_VALIDADOS_EN_COGNEX",
+  "png_procesados": 285,
+  "revisar": 285
+}

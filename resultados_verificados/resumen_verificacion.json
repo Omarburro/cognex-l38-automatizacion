@@ -1,0 +1,24 @@
+{
+  "evidencia": "SOLO_SINTETICOS",
+  "python": "3.12.14",
+  "sistema": "Linux",
+  "numpy": "2.3.5",
+  "opencv_python_headless": "4.14.0.94",
+  "filas_regiones": 285,
+  "filas_fixture": 15,
+  "herramientas": 19,
+  "decisiones_revisar": 285,
+  "nota_revisar": "Todos los sintéticos introducen movimientos fuera de umbrales; no es tasa de falsos rechazos",
+  "consensos_correctos": 15,
+  "herramientas_locales_alteradas_detectadas": [
+    "A22",
+    "A27",
+    "A33"
+  ],
+  "max_error_demo_tx_mm": 0.008155941973051029,
+  "max_error_demo_ty_mm": 0.02406799999999998,
+  "max_error_demo_theta_deg": 0.003027941973051229,
+  "cobertura_temporal_nueva_presente": true,
+  "pruebas_windows": "NO_EJECUTADAS",
+  "pruebas_cognex_real": "NO_EJECUTADAS"
+}

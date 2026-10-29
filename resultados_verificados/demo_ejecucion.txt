@@ -1,0 +1,13 @@
+Procesadas 25 de 285
+Procesadas 50 de 285
+Procesadas 75 de 285
+Procesadas 100 de 285
+Procesadas 125 de 285
+Procesadas 150 de 285
+Procesadas 175 de 285
+Procesadas 200 de 285
+Procesadas 225 de 285
+Procesadas 250 de 285
+Procesadas 275 de 285
+Resultado: /workspace/demo_cajas/regiones_resultado.csv | PNG: 285 | REVISAR: 285
+

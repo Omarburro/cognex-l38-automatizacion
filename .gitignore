@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.jobx
+*.job
+revisar_cajas/
+demo_local_*/
+datos_reales/
+*.zip

@@ -1,0 +1,86 @@
+Resultado: /tmp/cajas_sinteticas_oksb5ukp/regiones_resultado.csv | PNG: 1 | REVISAR: 0
+{
+  "pruebas": [
+    {
+      "caso": "identica",
+      "error_px": 2.2301018098467544e-09,
+      "error_deg": 0.0,
+      "confianza": 1.0
+    },
+    {
+      "caso": "traslacion",
+      "error_px": 0.06742680673327721,
+      "error_deg": 0.07637154313198272,
+      "confianza": 0.9601845462577009
+    },
+    {
+      "caso": "giro_positivo",
+      "error_px": 0.09621860007515237,
+      "error_deg": 0.008620834428411328,
+      "confianza": 0.9471302099672725
+    },
+    {
+      "caso": "giro_negativo",
+      "error_px": 0.12301040383172887,
+      "error_deg": 0.018413717920580552,
+      "confianza": 0.9203949743437928
+    },
+    {
+      "caso": "anisotropia",
+      "error_px": 0.08930134380881066,
+      "error_deg": 0.10615536912246659,
+      "confianza": 0.9283153060318032
+    },
+    {
+      "caso": "contraste_ruido",
+      "confianza": 0.9491371197353837
+    },
+    {
+      "caso": "plana",
+      "estado": "RECHAZADA"
+    },
+    {
+      "caso": "negra",
+      "estado": "RECHAZADA"
+    },
+    {
+      "caso": "no_correspondencia",
+      "estado": "RECHAZADA"
+    },
+    {
+      "caso": "periodica_alias23_vs7",
+      "estado": "AMBIGUA_RECHAZADA"
+    },
+    {
+      "caso": "geometria_robusta",
+      "tx": 20.02449501379629,
+      "ty": -11.99545901598972,
+      "theta": 3.0095446086877757
+    },
+    {
+      "caso": "un_deslizamiento_entre15",
+      "max_mm": 20.0,
+      "estado": "SIN_CORRECCION_FIJA"
+    },
+    {
+      "caso": "frame_fallido_bloquea_ajuste",
+      "estado": "APROBADA"
+    },
+    {
+      "caso": "deslizamiento20_bloquea_ajuste",
+      "estado": "APROBADA"
+    },
+    {
+      "caso": "consenso_minimo60_por_ciento",
+      "estado": "APROBADA"
+    },
+    {
+      "caso": "png_ausente_detectado_por_union_ids",
+      "estado": "APROBADA"
+    }
+  ],
+  "estado": "APROBADAS_SOLO_SINTETICOS",
+  "opencv": "4.14.0",
+  "numpy": "2.3.5"
+}
+
